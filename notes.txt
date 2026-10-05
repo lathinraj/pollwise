@@ -1,0 +1,18 @@
+api_view functions-->APIView--->GenericAPIView--->ViewSet--->ModelViewSet
+
+
+pre-built,class-based views designed to quickly build Api endpoints for common CRUD(create,read,update,delete) operations with minimal code
+
+
+
+HOW GENERIC VIEWS WORK
+
+- GenericAPIView: Extends DRF's APIView to add common database lookup,filtering, and pagination support.
+
+-Mixins: Provide  specific  action methods like .list(), .create(), .retrieve(), .update(), and .destroy().
+
+-concreateViews:
+
+
+createAPIView               createModelMixin            POST
+ListAPIView                 ListMOdelMixin
